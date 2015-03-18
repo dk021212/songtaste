@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="black_transparent">#00000000</drawable>
+
+    <color name="black_white">#ffffff</color>
+    <color name="black_white_shadow">#414141</color>
+    <color name="black_white_disabled">#e7e7e7</color>
+    <!-- For main texts -->
+    <color name="black_dark">#3d5562</color>
+    <color name="black_dark_shadow">#dedede</color>
+    <color name="black_dark_disabled">#9aa7af</color>
+    <!-- For secondary texts -->
+    <color name="black_grey">#8496a0</color>
+    <color name="black_grey_disabled">#aabbc4</color>
+    <!-- For danger cases, such as virus, file delete... -->
+    <color name="black_red">#e62f2f</color>
+    <!-- For warning cases, such as trashes... -->
+    <color name="black_yellow">#f1930d</color>
+    <!-- For safe cases -->
+    <color name="black_green">#60990c</color>
+    <!-- For suggestions -->
+    <color name="black_blue">#4b8bbd</color>
+    <color name="black_tab_indicator_text_selected">#ffffff</color>
+    <color name="black_tab_indicator_text_unselected">#aac5d7</color>
+    <color name="black_page_viewer_margin_color">#007800</color>
+    
+    <color name="transparent">#00ffffff</color>
+    <color name="GREEN">#ff00ff00</color>
+    <color name="RED">#ff0000</color>
+    <color name="blue">#4169E1</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="info_yellow">#99ffff00</color>
+    <color name="midnightBlue">#191970</color>
+    <color name="ltgray">#ffD3D3D3</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="btncolor1">#ff9178b1</color>
+    <color name="btncolor2">#ff73ac29</color>
+    <color name="btncolor3">#ffd94926</color>
+    <color name="btncolor4">#ff778592</color>
+</resources>

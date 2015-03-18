@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ListView
+        android:id="@+id/id_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </ListView>
+
+    <com.hyman.flowlayout.FlowLayout
+        android:id="@+id/id_flowlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E5E5F5" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="Test"
+            android:textColor="#5BC4ED" >
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="Test"
+            android:textColor="#5BC4ED" >
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="Test"
+            android:textColor="#5BC4ED" >
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="Test"
+            android:textColor="#5BC4ED" >
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="Test"
+            android:textColor="#5BC4ED" >
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="Test"
+            android:textColor="#5BC4ED" >
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="Test"
+            android:textColor="#5BC4ED" >
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="Test"
+            android:textColor="#5BC4ED" >
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="Test"
+            android:textColor="#5BC4ED" >
+        </Button>
+    </com.hyman.flowlayout.FlowLayout>
+
+</RelativeLayout>
