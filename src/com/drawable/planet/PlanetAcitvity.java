@@ -66,8 +66,6 @@ public class PlanetAcitvity extends Activity {
 		fragment.setArguments(args);
 		
 		//Insert the fragment by replacing any existing fragment
-		//123
-			
 	}
 
 	public static class PlanetFragment extends Fragment {
