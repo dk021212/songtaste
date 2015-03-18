@@ -1,3 +1,4 @@
+<!--
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -31,5 +32,17 @@
         android:icon="@drawable/menu_feedback_icon"
         android:title="@string/menu_feedback" >
     </itme>
+
+</menu>
+-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_websearch"
+        android:icon="@drawable/action_search"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_web_search">
+    </item>
 
 </menu>
