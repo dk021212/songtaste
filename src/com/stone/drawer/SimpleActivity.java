@@ -1,5 +1,7 @@
 package com.stone.drawer;
 
+import com.crashlytics.android.Crashlytics;
+import io.fabric.sdk.android.Fabric;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,9 +29,10 @@ public class SimpleActivity extends FragmentActivity implements OnClickListener 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		Fabric.with(this, new Crashlytics());
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.black_drawer_simple_activity);
-
+		
 		mDrawerLayout = (DrawerLayout) findViewById(R.id.id_drawer);
 		mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow,
 				GravityCompat.START);
@@ -39,6 +42,8 @@ public class SimpleActivity extends FragmentActivity implements OnClickListener 
 		mLvMenu = (ListView) findViewById(R.id.id_lv_menu);
 
 		initViewPager();
+		
+		throw new RuntimeException("This is a crash");
 	}
 
 	private void initViewPager() {
